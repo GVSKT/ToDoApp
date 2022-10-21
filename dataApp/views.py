@@ -6,7 +6,7 @@ import datetime
 from datetime import datetime
 
 from .models import ToDo
-from todoApp.serializers import  UserSerializer
+from .serializers import  UserSerializer
 
 @csrf_exempt
 def UserApi(request):
