@@ -70,7 +70,7 @@ WSGI_APPLICATION = 'todoApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME':'demodatabase',
+        'NAME':'demodb',
     }
 }
 
